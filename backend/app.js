@@ -10,7 +10,7 @@ const cors = require('cors')
 var app = express();
 
 
-// Login and Register 
+// Login and Register Page 
 require('./auth/auth');
 const login = require('./routes/login')
 const loggedInPage = require('./routes/loggedInUser');

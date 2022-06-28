@@ -226,15 +226,15 @@ input.form-submit {
 }
 
 .link-text {
-    padding-bottom: 5px;
-    padding-left: 50%;
+    padding-bottom: 3px;
+    padding-left: 40%;
 }
 
 .signuptext {
     color: green;
     position: relative;
     left: 100%;
-    top: -27px;
+    top: -25px;
     padding-right: 10px;
     cursor: pointer;
 }

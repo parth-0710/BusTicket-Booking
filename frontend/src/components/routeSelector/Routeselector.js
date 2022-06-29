@@ -54,9 +54,9 @@ export default function Routeselector() {
                         <option>TO</option>
                         <option>Changa</option>
                         <option>Nadiad</option>
+                        <option>Gandhinagar</option>
                         <option>Anand</option>
-                        <option>Bangalore</option>
-                        <option>Chenai</option>
+                       
                     </select>
                     <input onChange={e => { handleDate(e) }} type="date"></input>
                     <input type="submit" className=" btn btn-primary btn-md getRoute" />

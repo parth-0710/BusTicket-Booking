@@ -28,7 +28,7 @@
     background: #456e976c;
     border-radius: 5px;
     position: relative;
-    animation: text 3s 1;
+    animation: text 3s infinite ;
 }
 
 @keyframes text {
@@ -219,9 +219,18 @@ h1 span {
         text-indent: 0;
     }
 }
+.cc{
+    margin-left: 32px;
+}
 
 .word3 {
+    margin-top: 9px;
     font-size: 2.5rem;
+}
+
+.word2 {
+    margin-top: 5px;
+    /* font-size: 2.5rem; */
 }
 
 .slogan {

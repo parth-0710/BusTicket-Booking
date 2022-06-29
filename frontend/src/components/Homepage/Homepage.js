@@ -18,7 +18,7 @@ export default function Homepage({ history }) {
             <div className="container">
                 <div className="slogan">
                     <h1>
-                        <span>always Travel</span>
+                        <span class="cc">always Travel</span>
                         <div className="message">
                             <div className="word1">Uniquely</div>
                             <div className="word2">Safely</div>

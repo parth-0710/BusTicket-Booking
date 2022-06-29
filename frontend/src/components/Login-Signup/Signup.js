@@ -56,6 +56,7 @@ export default function Signup({ history }) {
                   <div className="icon-soc-tw">
                     <FaTwitterSquare />
                   </div>{" "}
+                  
                 </div>{" "}
                 <div className="left-divider">
                   <div className="col-md-6">

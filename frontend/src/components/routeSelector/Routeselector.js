@@ -46,14 +46,15 @@ export default function Routeselector() {
                 <form className="form-inline" onSubmit={e => getRoutes(e)}>
                     <select name="ad_account_selected" data-style="btn-new" class="selectpicker" onChange={e => { handleFromCity(e) }}>
                         <option>FROM</option>
-                        <option>Chennai</option>
-                        <option>Bangalore</option>
+                        <option>Rajkot</option>
+                        <option>Ahmedabad</option>
+                        <option>Surat</option>
                     </select>
                     <select name="ad_account_selected" data-style="btn-new" class="selectpicker" onChange={e => { handleToCity(e) }}>
                         <option>TO</option>
-                        <option>Hyderabad</option>
-                        <option>Coimbatore</option>
-                        <option>Vishakapatnam</option>
+                        <option>Changa</option>
+                        <option>Nadiad</option>
+                        <option>Anand</option>
                         <option>Bangalore</option>
                         <option>Chenai</option>
                     </select>

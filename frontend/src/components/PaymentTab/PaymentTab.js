@@ -84,6 +84,7 @@ export default class App extends React.Component {
       });
     }
   };
+  
   localff = () => {
     let passArray = localStorage.getItem("nameData");
     if (passArray) {

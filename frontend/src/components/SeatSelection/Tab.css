@@ -227,7 +227,8 @@ ol {
 
 .seatBT{
     display:block;
-    margin-left:36%;
+    margin-left:40%;
+    margin-bottom: 15px;
 }
 
 .hideBT{

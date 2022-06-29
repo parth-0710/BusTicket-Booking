@@ -169,14 +169,17 @@ a, a:hover {
 
 .myform-area .form-area .form-text {
     margin-top: 30px;
+    /* margin-left: 2%; */
 }
 
 .myform-area .form-area .form-text span a {
+    
     color: rgba(103, 58, 183);
 }
 
 .myform-area .form-area .myform-button {
     margin-top: 30px;
+
 }
 
 .myform-area .form-area .myform-button .myform-btn {
@@ -205,7 +208,7 @@ a, a:hover {
 .signUPtext {
     color: green;
     position: relative;
-    left: 50%;
+    left: 65%;
     top: -27px;
     padding-right: 10px;
     cursor: pointer;

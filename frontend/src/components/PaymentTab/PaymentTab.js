@@ -223,14 +223,11 @@ export default class App extends React.Component {
                     {localStorage.getItem("destination")}{" "}
                   </p>{" "}
                   <hr className="hr3" />
-<<<<<<< HEAD
                   <p className="hdng">Seat No </p> {this.renderSeatNumbers()}
                   <p> {this.getSumTotal()} </p>
-=======
                   <p className="hdng">
                     Seat No{" "}
                   </p> {this.renderSeatNumbers()} <p> {this.getSumTotal()} </p>
->>>>>>> f2720d49adbefb4968a397f786947a5818ee9384
                 </div>{" "}
               </div>{" "}
             </div>{" "}

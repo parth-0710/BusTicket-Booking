@@ -228,6 +228,7 @@ export default class App extends React.Component {
             p className = 'hdng' > Toal Sum < /p>{' '} <
             /div>{' '} <
             div className = 'col-6' >
+            <p className='hdng'> Details </p>
             <
             hr className = 'hr3' / >
             <

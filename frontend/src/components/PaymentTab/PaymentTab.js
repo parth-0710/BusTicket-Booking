@@ -84,6 +84,15 @@ export default class App extends React.Component {
       });
     }
   };
+  localff = () => {
+    let passArray = localStorage.getItem("nameData");
+    if (passArray) {
+      let nameArray = JSON.parse(passArray);
+     
+        return nameArray[0];
+      
+    }
+  };
 
   renderSeatNumbers = () => {
     let seatArray = localStorage.getItem("reservedSeats");
@@ -211,7 +220,7 @@ export default class App extends React.Component {
                   <p className="hdng"> Toal Sum </p>{" "}
                 </div>{" "}
                 <div className="col-6">
-                  <p className="hdng"> Details </p>
+                  <p className="hdng"> {this.localff()} </p>
                   <hr className="hr3" />
                   <p className="usrName">
                     {" "}
@@ -223,14 +232,9 @@ export default class App extends React.Component {
                     {localStorage.getItem("destination")}{" "}
                   </p>{" "}
                   <hr className="hr3" />
-<<<<<<< HEAD
-                  <p className="hdng">Seat No </p> {this.renderSeatNumbers()}
-                  <p> {this.getSumTotal()} </p>
-=======
                   <p className="hdng">
                     Seat No{" "}
                   </p> {this.renderSeatNumbers()} <p> {this.getSumTotal()} </p>
->>>>>>> f2720d49adbefb4968a397f786947a5818ee9384
                 </div>{" "}
               </div>{" "}
             </div>{" "}

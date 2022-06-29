@@ -211,20 +211,35 @@ export default class App extends React.Component {
                   <p className="hdng"> Toal Sum </p>{" "}
                 </div>{" "}
                 <div className="col-6">
+<<<<<<< HEAD
                 {/* <p className="hdng"> Details </p> */}
                   <p className="usrName">
                   {this.renderNamesOfPassenger()}
                   </p>{" "}
                   <hr className="hr3" />
                   <p className="usrName"> {localStorage.getItem("date")} </p>{" "}
+=======
+                  <p className="hdng"> Details </p>
+                  <hr className="hr3" />
+                  <p className="usrName">
+                    {" "}
+                    {localStorage.getItem("date")}{" "}
+                  </p>{" "}
+>>>>>>> f2720d49adbefb4968a397f786947a5818ee9384
                   <p className="usrName"> {localStorage.getItem("start")} </p>{" "}
                   <p className="usrName">
                     {" "}
                     {localStorage.getItem("destination")}{" "}
                   </p>{" "}
                   <hr className="hr3" />
+<<<<<<< HEAD
                   <p className="hdng">Seat No </p> {this.renderSeatNumbers()}
                   <p> {this.getSumTotal()} </p>
+=======
+                  <p className="hdng">
+                    Seat No{" "}
+                  </p> {this.renderSeatNumbers()} <p> {this.getSumTotal()} </p>
+>>>>>>> f2720d49adbefb4968a397f786947a5818ee9384
                 </div>{" "}
               </div>{" "}
             </div>{" "}

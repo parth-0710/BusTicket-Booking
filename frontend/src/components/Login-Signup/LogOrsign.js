@@ -62,7 +62,7 @@ export default function LogOrsign({ history }) {
                                             <button type="submit" className="myform-btn">Login</button>
                                         </div>
                                         <div>
-                                            <small className="form-text text-muted signup-text">Already a User?
+                                            <small className="form-text text-muted signup-text">Don't have an Account?
                                             </small>
                                             <span className="signUPtext"><a href="/#" onClick={(e) => getToSignUp(e)}>Sign-Up</a></span>
                                         </div>

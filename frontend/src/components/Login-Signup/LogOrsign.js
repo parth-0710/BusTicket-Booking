@@ -39,12 +39,12 @@ export default function LogOrsign({ history }) {
                             <div className="form-area login-form">
                                 <div className="form-content">
                                     <h2>Login</h2>
-                                    <p>you chose the right option</p>
+                                    <p>You choose the right option</p>
                                     <ul>
-                                        <li><a href="/#" className="facebook"><FaFacebookF /></a></li>
+                                        <li><a href="https://www.facebook.com/login.php" className="facebook"><FaFacebookF /></a></li>
                                     </ul>
                                     <ul>
-                                        <li><a href="/#" className="twitter"><FaTwitterSquare /></a></li>
+                                        <li><a href="https://twitter.com/i/flow/login" className="twitter"><FaTwitterSquare /></a></li>
                                     </ul>
                                 </div>
                                 <div className="form-input">
@@ -56,7 +56,7 @@ export default function LogOrsign({ history }) {
                                         </div>
                                         <div class="form-group">
                                             <input className="loginInfo" type="password" name="password" required onChange={e => handleChangeEvent(e, 'password')} />
-                                            <label>password</label>
+                                            <label>Password</label>
                                         </div>
                                         <div class="myform-button">
                                             <button type="submit" className="myform-btn">Login</button>

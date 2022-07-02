@@ -209,6 +209,7 @@ export default class App extends React.Component {
             <h3> Unique Travels </h3>{" "}
             <div>
               <p> BOOKING DETAILS </p>{" "}
+              <br></br>
               <div className="row">
                 <div className="col-6 pt">
                   <p className="hdng"> Username </p> <hr className="hr3" />

@@ -45,15 +45,12 @@ export default function BusList({ value: dataInp }) {
                         <div class="w-100 d-none d-md-block"></div>
 
                         {console.log(bus.seatArray)}
-                        <div class="col-6 col-sm-3 mb-4">{bus.companyName}</div>
+                        <div class="col-6 col-sm-3 mb-4">{bus.CompanyName}</div>
                         <div class="col-6 col-sm-3 mb-4">{bus.startCity}</div>
                         <div class="col-6 col-sm-3 mb-4">{bus.destination}</div>
                         <div class="col-6 col-sm-3 mb-4">{bus.pricePerSeat}</div>
                         <div class="col-6 col-sm-4 mb-2 ml-0">
                             <button className={clas ? "btn btn-primary btn-md" : "btn btn-primary btn-md disabled"} onClick={(bId) => { handleSubmit(bus._id) }} >Book Now</button>
-                        </div>
-                        <div class="col-6 col-sm-4 mb-2 ml-0">
-                            <span className={reset ? "badge badge-danger ml-5" : "disabled"} onClick={e => handleReset(e)}>Reset</span>
                         </div>
                     </div>
                 </div >

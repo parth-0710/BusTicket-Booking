@@ -67,6 +67,7 @@ export default function Signup({ history }) {
                           id="name"
                           type="text"
                           className="form-control sgnUp"
+                          autoComplete="off"
                           onChange={(e) => handleChangeEvent(e, "name")}
                         />{" "}
                       </div>{" "}
@@ -77,6 +78,7 @@ export default function Signup({ history }) {
                           id="email"
                           type="email"
                           className="form-control sgnUp"
+                          autoComplete="off"
                           onChange={(e) => handleChangeEvent(e, "email")}
                         />{" "}
                       </div>{" "}
@@ -87,6 +89,7 @@ export default function Signup({ history }) {
                           id="mob-number"
                           type="text"
                           className="form-control sgnUp"
+                          autoComplete="off"
                           onChange={(e) => handleChangeEvent(e, "mobile")}
                         />{" "}
                       </div>{" "}
@@ -98,6 +101,7 @@ export default function Signup({ history }) {
                           id="Male"
                           name="gender"
                           value="Male"
+                          autoComplete="off"
                           onChange={(e) => handleChangeEvent(e, "gender")}
                         />{" "}
                         <label class="form-check-label" htmlFor="Male">
@@ -112,6 +116,7 @@ export default function Signup({ history }) {
                           id="Female"
                           name="gender"
                           value="Female"
+                          autoComplete="off"
                           onChange={(e) => handleChangeEvent(e, "gender")}
                         />{" "}
                         <label class="form-check-label" htmlFor="Female">
@@ -125,6 +130,7 @@ export default function Signup({ history }) {
                           id="password"
                           type="password"
                           className="form-control sgnUp"
+                          autoComplete="off"
                           onChange={(e) => handleChangeEvent(e, "password")}
                         />{" "}
                       </div>{" "}

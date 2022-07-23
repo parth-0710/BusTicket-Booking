@@ -164,6 +164,7 @@ export default class App extends React.Component {
                     name="name"
                     className="frm-ctrl"
                     placeholder="Name"
+                    autoComplete="off"
                     required
                     onChange={this.handleInputChange}
                     onFocus={this.handleInputFocus}

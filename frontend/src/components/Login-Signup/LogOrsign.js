@@ -51,11 +51,11 @@ export default function LogOrsign({ history }) {
                                     <h2>Enter Credentials</h2>
                                     <form onSubmit={(e) => { submitData(e) }}>
                                         <div class="form-group">
-                                            <input className="loginInfo" type="email" name="name" required onChange={e => handleChangeEvent(e, 'email')} />
+                                            <input className="loginInfo" type="email" name="name" autoComplete="off" required onChange={e => handleChangeEvent(e, 'email')} />
                                             <label>Email-Id</label>
                                         </div>
                                         <div class="form-group">
-                                            <input className="loginInfo" type="password" name="password" required onChange={e => handleChangeEvent(e, 'password')} />
+                                            <input className="loginInfo" type="password" name="password" autoComplete="off" required onChange={e => handleChangeEvent(e, 'password')} />
                                             <label>Password</label>
                                         </div>
                                         <div class="myform-button">

@@ -7,7 +7,6 @@ var bodyParser = require('body-parser')
 
 
 
-
 router.get('/', (req, res) => {
     res.send("Register Here")
 });

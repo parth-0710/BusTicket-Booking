@@ -1,4 +1,3 @@
-
 const passport = require('passport');
 const localStrategy = require('passport-local').Strategy;
 const User = require('../models/User')
@@ -18,13 +17,13 @@ passport.use('login', new localStrategy({
         const user = await User.findOne({ email });
         if (user === null) {
             //If the user isn't found in the database, return a message
-            return done(null, false, { message: 'User not found' });
+            return done(null, false, { message: 'User Not Found' });
         }
         //Validate password and make sure it matches with the corresponding hash stored in the database
         //If the passwords match, it returns a value of true.
         const validate1 = await bcrypt.compare(password, user.password, function (err, result) {
             if (err) console.log(err);
-            if (result) return done(null, user, { message: 'Logged in Successfully' });
+            if (result) return done(null, user, { message: 'Logged In Successfully' });
             else return done(null, false, { message: 'Wrong Password' });
         });
     } catch (error) {
